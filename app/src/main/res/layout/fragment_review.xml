@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f2f2f2">
+
+    <!-- Grupa radiowa dla wyboru recenzji -->
+    <RadioGroup
+        android:id="@+id/review_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/positive_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/positive"
+            android:buttonTint="#00c3ff"
+            android:textColor="#333333"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/negative_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/negavite"
+            android:buttonTint="#00c3ff"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"/>
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/review_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/your_opinion"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="5"
+        android:padding="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/send"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:fontFamily="@font/alatsi"
+            android:textSize="16sp"
+            android:elevation="4dp"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/edit"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:fontFamily="@font/alatsi"
+            android:textSize="16sp"
+            android:elevation="4dp"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reviews_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

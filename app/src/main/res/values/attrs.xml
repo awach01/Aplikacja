@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="MaterialCalendarView">
+        <attr name="mcv_showOtherDates" format="enum">
+            <enum name="all" value="0"/>
+        </attr>
+        <attr name="mcv_selectionColor" format="color"/>
+        <attr name="mcv_todayBackgroundColor" format="color"/>
+        <attr name="mcv_arrowColor" format="color"/>
+        <attr name="mcv_headerTextAppearance" format="reference"/>
+        <attr name="mcv_dateTextAppearance" format="reference"/>
+    </declare-styleable>
+</resources>

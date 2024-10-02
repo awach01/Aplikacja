@@ -1,0 +1,24 @@
+<!-- res/layout/button_with_icon.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/button_background"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/buttonIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_a_photo_24" />
+
+    <TextView
+        android:id="@+id/buttonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_photos"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Zmiana koloru paska tytułowego na niebieski -->
+        <item name="colorPrimary">@color/custom_color</item> <!-- Zdefiniuj ten kolor w colors.xml -->
+        <item name="colorPrimaryDark">@color/custom_color</item>
+        <item name="colorAccent">@color/custom_color</item>
+        <item name="android:windowBackground">#f2f2f2</item>
+        <!-- Ukrywanie tytułu w ActionBar -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+    </style>
+</resources>
+
+

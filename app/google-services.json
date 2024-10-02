@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258824526224",
+    "project_id": "gabinet-6141b",
+    "storage_bucket": "gabinet-6141b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258824526224:android:4573bfb418e00983333b15",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq0lWqIXkuj18fpL3uke10h5M6UVuYuPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
