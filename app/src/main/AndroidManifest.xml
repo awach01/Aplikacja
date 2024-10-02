@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.example.aplikacjagabinet">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -15,27 +15,27 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".FullscreenImageActivity"
+            android:name="com.example.aplikacjagabinet.FullscreenImageActivity"
             android:exported="false"
             android:label="@string/title_activity_fullscreen_image"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Rest.MainDashboardActivity"
+            android:name="com.example.aplikacjagabinet.Rest.MainDashboardActivity"
             android:exported="false"
             android:label="@string/title_activity_main_dashboard"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".LoginRegister.LoginActivity"
+            android:name="com.example.aplikacjagabinet.LoginRegister.LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".LoginRegister.RegisterActivity"
+            android:name="com.example.aplikacjagabinet.LoginRegister.RegisterActivity"
             android:exported="false"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".LoginRegister.MainActivity"
+            android:name="com.example.aplikacjagabinet.LoginRegister.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
